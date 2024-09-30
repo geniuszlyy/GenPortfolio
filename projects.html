@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Geniuszly | Projects</title>
+</head>
+<body>
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+    <div id="content">
+        <header class="sticky-header">
+            <a href="index.html" class="brand-name">Geniusz</a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="skills.html">Skills</a>
+                <a href="projects.html" class="current-page">Projects</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <section class="projects-section">
+            <h2>My Projects</h2>
+
+            <div class="project-block">
+                <div class="project-image">
+                    <img src="images/projects/1.jpg" alt="API Security Testing Framework">
+                </div>
+                <div class="project-content">
+                    <h3><i class="fas fa-lock"></i> API Security Testing Framework</h3>
+                    <p>Developed a framework for API security testing that automates the discovery of vulnerabilities such as SQL injection, XSS, and authorization bypasses.</p>
+                </div>
+            </div>
+
+            <div class="project-block reverse">
+                <div class="project-image">
+                    <img src="images/projects/2.jpg" alt="Social Media Analysis and Monitoring Tool">
+                </div>
+                <div class="project-content">
+                    <h3><i class="fas fa-chart-line"></i> Social Media Analysis and Monitoring Tool</h3>
+                    <p>Created a tool for analyzing social media activity, identifying trends, and monitoring specific topics or users with the ability to detect bot behavior and suspicious activity.</p>
+                </div>
+            </div>
+
+            <div class="project-block">
+                <div class="project-image">
+                    <img src="images/projects/3.jpg" alt="Binary Diffing Tool for Patch Analysis">
+                </div>
+                <div class="project-content">
+                    <h3><i class="fas fa-code-branch"></i> Binary Diffing Tool for Patch Analysis</h3>
+                    <p>Developed a binary diffing tool to compare executable files and identify changes, especially useful for finding security patches or undocumented changes in software updates.</p>
+                </div>
+            </div>
+
+            <div class="project-block reverse">
+                <div class="project-image">
+                    <img src="images/projects/4.jpg" alt="Dark Web Data Analyzer">
+                </div>
+                <div class="project-content">
+                    <h3><i class="fas fa-eye-slash"></i> Dark Web Data Analyzer</h3>
+                    <p>Designed a system for crawling and analyzing data from dark web marketplaces to monitor illegal activities, data breaches, and other security threats.</p>
+                </div>
+            </div>
+
+            <div class="project-block">
+                <div class="project-image">
+                    <img src="images/projects/5.jpg" alt="Vulnerability Scanner for IoT Devices">
+                </div>
+                <div class="project-content">
+                    <h3><i class="fas fa-wifi"></i> Vulnerability Scanner for IoT Devices</h3>
+                    <p>Built a specialized vulnerability scanner for IoT devices that identifies security risks such as weak passwords, open ports, and outdated firmware.</p>
+                </div>
+            </div>
+
+            <div class="project-block reverse">
+                <div class="project-image">
+                    <img src="images/projects/6.jpg" alt="Reverse Engineering Automation">
+                </div>
+                <div class="project-content">
+                    <h3><i class="fas fa-search"></i> Reverse Engineering Automation</h3>
+                    <p>Developed an automated reverse engineering tool to simplify the analysis of obfuscated binaries and packed executables, streamlining the process of extracting valuable information.</p>
+                </div>
+            </div>
+
+            <div class="project-block">
+                <div class="project-image">
+                    <img src="images/projects/7.jpg" alt="Network Traffic Analysis Tool">
+                </div>
+                <div class="project-content">
+                    <h3><i class="fas fa-network-wired"></i> Network Traffic Analysis Tool</h3>
+                    <p>Created a network traffic analysis tool that monitors and analyzes network packets in real-time, helping detect suspicious activities and identify anomalies in network behavior.</p>
+                </div>
+            </div>
+
+            <div class="project-block reverse">
+                <div class="project-image">
+                    <img src="images/projects/8.jpg" alt="Malware Analysis Toolkit">
+                </div>
+                <div class="project-content">
+                    <h3><i class="fas fa-bug"></i> Malware Analysis Toolkit</h3>
+                    <p>Built a malware analysis toolkit for both static and dynamic analysis of suspicious binaries, including disassembly, sandboxing, and behavioral analysis.</p>
+                </div>
+            </div>
+
+            <div class="project-block">
+                <div class="project-image">
+                    <img src="images/projects/9.jpg" alt="Custom Client Application">
+                </div>
+                <div class="project-content">
+                    <h3><i class="fas fa-user-shield"></i> Custom Client Application</h3>
+                    <p>Developed a cross-platform client application using Python and C++ for secure communication and data transfer in enterprise environments.</p>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <script>
+        window.addEventListener('load', function() {
+            var preloader = document.getElementById('preloader');
+            var content = document.getElementById('content');
+            
+            preloader.style.display = 'none';
+            
+            content.style.display = 'block';
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Geniuszly | Home</title>
+</head>
+<body>
+    <div id="preloader">
+        <div class="spinner"></div>
+    </div>
+    <div id="content">
+        <header>
+            <a href="#" class="brand-name">Geniusz</a>
+
+            <nav>
+                <a href="home.html" class="current-page">Home</a>
+                <a href="skills.html">Skills</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+        <section class="intro">
+            <div class="profile-image">
+                <img src="images/main.jpg" alt="Profile Picture">
+            </div>
+            <div class="intro-content">
+                <h1>Welcome, I'm <span>Geniusz</span></h1>
+                <h3 class="animated-text">I am a <span></span></h3>
+                <p>I specialize in cybersecurity and am an experienced fullstack developer. I am proficient in many programming languages, allowing me to efficiently develop both client-side and server-side solutions. My skills include reverse engineering, analyzing and debugging programs and websites, as well as finding vulnerabilities in software. I am also actively involved in analyzing networks, IP addresses, and systems, helping to identify potential threats and improve the security of applications and infrastructure.</p>
+                <div class="cta-container">
+                    <div class="social-links">
+                        <a href="https://vk.com/id333350635"><i class="fa-brands fa-vk"></i></a>
+                        <a href="https://github.com/geniuszly"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://telegram.com/geniuszly"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="https://www.instagram.com/eldar4ikyt"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="contact.html" class="cta-button">Hire</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script>
+        window.addEventListener('load', function() {
+            var preloader = document.getElementById('preloader');
+            var content = document.getElementById('content');
+            
+            preloader.style.display = 'none';
+            
+            content.style.display = 'block';
+        });
+    </script>
+</body>
+</html>
